@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Lada</title>
+    <link href="Favicon@2x.png" rel="icon" type="image/x-icon">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bowlby+One+SC&display=swap" rel="stylesheet">
+    <style>
+        nav {
+            background-color: red;
+            color: white;
+            padding: 10px;
+
+        }
+
+
+        nav a {
+
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            text-transform: uppercase;
+
+        }
+
+
+        nav a:hover{
+
+            color: yellow;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            column-gap: 30px;
+
+        }
+
+        .banner {
+            background-color: blue;
+            height: 600px;
+            background-image: url(banner.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative;
+        }
+
+
+        .banner div {
+
+            color: white;
+            width: 40%;
+            position:absolute;
+            top: 20%;
+            left: 5% ;
+
+
+        }
+
+        .banner h2{
+
+            font-size: 5vw;
+            margin: 15px 0;
+        }
+
+        .banner p{
+            font-size: 1.4vw;
+            margin: 10px 0;
+        }
+
+
+        .banner button{
+
+            padding: 10px 15px;
+            background-color: yellow;
+            font-weight: bold;
+        }
+
+        .banner button:hover{
+            background-color: red;
+            color: white;
+            cursor: pointer;
+        }
+
+        .service {
+            display: flex;
+            column-gap: 20px;
+            padding: 40px 10%;
+
+        }
+
+        .service section {
+
+            height: 400px;
+            background-color: black;
+            flex: 1;
+
+        }
+
+        .about {
+
+
+            background-color: yellow;
+            display: flex;
+            padding: 40px 10%;
+            column-gap: 5%;
+
+        }
+
+
+        .about-img {
+            background-color: black;
+            height: 500px;
+
+        }
+
+        .reserve {
+
+            display: flex;
+        }
+
+        .reserve-img {
+
+            background-image: url("contact.jpg");
+            flex: 1;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .reserve-form {
+            flex: 1;
+            padding: 40px 4%;
+            background-color: rgb(11, 11, 88);
+            color: white;
+        }
+
+        .reserve-form h5 {
+            color: yellow;
+            font-family: 'Pacifico', cursive;
+            margin: 5px 0px;
+        }
+
+        .reserve-form h3 {
+            font-size: 2rem;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 5px 0px 15px 0px;
+        }
+
+        .reserve-form input {
+            height: 35px;
+            width: 100%;
+            margin-bottom: 20px;
+            flex: 1;
+
+        }
+
+        .reserve-form input[type="submit"] {
+
+            background-color: rgb(255, 136, 0);
+            color: white;
+        }
+
+        .reserve-form select {
+            flex: 1;
+            height: 40px;
+        }
+
+        .reserve-form textarea {
+            width: 100%;
+            margin-bottom: 20px;
+
+        }
+
+        .reserve-form div {
+
+            display: flex;
+            column-gap: 2%;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <center>
+            <a href="index.html"><img src="Lada logo@2x.png" alt="Logo" height="100px"></a>
+        </center>
+    </header>
+    <nav>
+        <ul>
+            <a href="index.html">
+                <li>Home</li>
+            </a>
+            <a href="about.html">
+                <li>About</li>
+            </a>
+            <a href="services.html">
+                <li>Services</li>
+            </a>
+            <a href="menu.html">
+                <li>Menu</li>
+            </a>
+            <a href="blog.html">
+                <li>Blog</li>
+            </a>
+            <a href="reservation.html">
+                <li>Reservation</li>
+            </a>
+        </ul>
+    </nav>
+
+    <main class="banner">
+        <div>
+            <h2>Enjoy our Delicious Meal</h2>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus excepturi maxime aperiam quidem
+                dignissimos explicabo nisi quam dolorum quos quis, dicta cumque eaque illum, consequuntur rerum? Aperiam
+                sed ullam necessitatibus.</p>
+
+            <button>Make Reservation</button>
+
+
+        </div>
+
+    </main>
+
+    <main class="service">
+        <section></section>
+        <section></section>
+        <section></section>
+
+    </main>
+
+    <main class="about">
+        <section style="flex: 3;">
+            <h2>About us</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus esse numquam molestias incidunt
+                molestiae autem? Inventore cum nostrum praesentium nam ea. Fuga amet suscipit modi eos expedita.
+                Doloremque, cum fugit!</p>
+
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus esse numquam molestias incidunt
+                molestiae autem? Inventore cum nostrum praesentium nam ea. Fuga amet suscipit modi eos expedita.
+                Doloremque, cum fugit!</p>
+
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus esse numquam molestias incidunt
+                molestiae autem? Inventore cum nostrum praesentium nam ea. Fuga amet suscipit modi eos expedita.
+                Doloremque, cum fugit!</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus esse numquam molestias incidunt
+                molestiae autem? Inventore cum nostrum praesentium nam ea. Fuga amet suscipit modi eos expedita.
+                Doloremque, cum fugit!</p>
+
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus esse numquam molestias incidunt
+                molestiae autem? Inventore cum nostrum praesentium nam ea. Fuga amet suscipit modi eos expedita.
+                Doloremque, cum fugit!</p>
+        </section>
+
+        <section class="about-img" style="flex: 2;"></section>
+
+    </main>
+
+    <main class="reserve">
+
+        <section class="reserve-img"></section>
+        <section class="reserve-form">
+            <form>
+                <h5> Reservation</h5>
+                <h3>Book a table online</h3>
+
+                <div>
+                    <input type="text">
+                    <input type="email">
+                </div>
+                <div>
+                    <input type="datetime-local">
+                    <select>
+
+                        <option>No of people
+                            1 Person</option>
+                        <option>
+                            2 People</option>
+                        <option>3 People</option>
+                        <option>4 People</option>
+                        <option>5 People</option>
+                    </select>
+                </div>
+
+                <textarea rows="10">Special Request</textarea>
+                <input type="submit" value="BOOK NOW">
+            </form>
+
+        </section>
+
+    </main>
+
+</body>
+
+</html>

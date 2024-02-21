@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Lada</title>
+    <link href="Favicon@2x.png" rel="icon" type="image/x-icon">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Bowlby+One+SC&display=swap" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/6a45678e57.js" crossorigin="anonymous"></script>
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <style>
+        nav {
+            background-color: red;
+            color: white;
+            padding: 10px;
+
+        }
+
+
+        nav a {
+
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            text-transform: uppercase;
+
+        }
+
+
+        nav a:hover{
+
+            color: yellow;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            column-gap: 30px;
+
+        }
+
+        .banner {
+            background-color: blue;
+            height: 200px;
+            background-image: url(banner.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative;
+            text-align: center;
+        
+        }
+
+
+        .banner div {
+
+            color: white;
+            width: 40%;
+            position:absolute;
+            top: 20%;
+            left: 30% ;
+
+
+        }
+
+        .banner h2{
+
+            font-size: 5vw;
+            margin: 15px 0;
+        }
+
+        .banner p{
+            font-size: 1.4vw;
+            margin: 10px 0;
+        }
+
+
+        .banner button{
+
+            padding: 10px 15px;
+            background-color: yellow;
+            font-weight: bold;
+        }
+
+        .banner button:hover{
+            background-color: red;
+            color: white;
+            cursor: pointer;
+        }
+
+        .service {
+            display: flex;
+            column-gap: 20px;
+            padding: 40px 10%;
+
+        }
+
+        .service section {
+
+            height: 400px;
+            background-color: black;
+            flex: 1;
+
+        }
+
+        .about {
+
+
+            background-color: yellow;
+            display: flex;
+            padding: 40px 10%;
+            column-gap: 5%;
+
+        }
+
+
+        .about-img {
+            background-color: black;
+            height: 500px;
+
+        }
+
+        .reserve {
+
+            display: flex;
+        }
+
+        .reserve-img {
+
+            background-image: url("contact.jpg");
+            flex: 1;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .reserve-form {
+            flex: 1;
+            padding: 40px 4%;
+            background-color: rgb(11, 11, 88);
+            color: white;
+        }
+
+        .reserve-form h5 {
+            color: yellow;
+            font-family: 'Pacifico', cursive;
+            margin: 5px 0px;
+        }
+
+        .reserve-form h3 {
+            font-size: 2rem;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 5px 0px 15px 0px;
+        }
+
+        .reserve-form input {
+            height: 35px;
+            width: 100%;
+            margin-bottom: 20px;
+            flex: 1;
+
+        }
+
+        .reserve-form input[type="submit"] {
+
+            background-color: rgb(255, 136, 0);
+            color: white;
+        }
+
+        .reserve-form select {
+            flex: 1;
+            height: 40px;
+        }
+
+        .reserve-form textarea {
+            width: 100%;
+            margin-bottom: 20px;
+
+        }
+
+        .reserve-form div {
+
+            display: flex;
+            column-gap: 2%;
+        }
+
+        footer{
+
+            padding: 10px;
+            background-color: rgb(10, 10, 107);
+            text-align: center;
+            color: white;
+        }
+
+        .menu{
+
+            padding: 5%;
+        }
+
+        .menu-1{
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .menu-2{
+
+            display: flex;
+            column-gap: 2%;
+            justify-content: center;
+        }
+
+        .menu-2 aside{
+            display: flex;
+            column-gap: 2%;
+
+        }
+
+        .menu-2 i{
+
+
+        }
+
+
+        .menu-2 p{
+
+            font-size: 2rem;
+        }
+
+        .menu-3{
+            display: flex;
+            column-gap: 5%;
+        }
+.food{
+    display: flex;
+    column-gap: 2%;
+    
+
+}
+
+
+.food > div{
+   flex: 1
+
+}
+
+.food article{
+   flex: 6
+
+}
+
+.menu-3 aside{
+    flex:1
+}
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <center>
+            <a href="index.html"><img src="Lada logo@2x.png" alt="Logo" height="100px"></a>
+        </center>
+    </header>
+    <nav>
+        <ul>
+            <a href="index.html">
+                <li>Home</li>
+            </a>
+            <a href="about.html">
+                <li>About</li>
+            </a>
+            <a href="services.html">
+                <li>Services</li>
+            </a>
+            <a href="menu.html">
+                <li>Menu</li>
+            </a>
+            <a href="blog.html">
+                <li>Blog</li>
+            </a>
+            <a href="reservation.html">
+                <li>Reservation</li>
+            </a>
+        </ul>
+    </nav>
+
+    <main class="banner">
+        <div>
+            <h2>Menu</h2>
+
+
+
+
+        </div>
+</main>
+
+<main class="menu">
+<section class="menu-1">
+<h5>Food Menu</h5>
+<h3>Most popular Items</h3>
+
+</section>
+<section class="menu-2">
+<aside>
+    <div><i class="fa-solid fa-mug-hot"></i></div>
+    <div>
+        <p>Popular<br><strong>Breakfast</strong></p>
+    </div>
+</aside>
+
+<aside>
+    <div><i class="fa-solid fa-burger"></i></div>
+    <div>
+       <p> Special<br><strong>Lunch</strong></p>
+    </div>
+</aside>
+
+<aside>
+    <div><i class="fa-solid fa-utensils"></i></div>
+    <div>
+        <p>Lovely<br><strong>Dinner</strong></p>
+    </div>
+</aside>
+</section>
+<section class="menu-3">
+<aside>
+<div class="food">
+<div><img src="rice.jpg" width="100%"></div>
+<article>
+    Rice an Chicken   3260
+    <hr>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+</article>
+
+</div>
+
+<div class="food">
+    <div><img src="rice.jpg" width="100%"></div>
+    <article>
+        Rice an Chicken   3260
+        <hr>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    </article>
+    
+    </div>
+
+
+    <div class="food">
+        <img src="rice.jpg" width="100%">
+        <article>
+            Rice an Chicken   3260
+            <hr>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </article>
+        
+        </div>
+
+        <div class="food">
+            <img src="rice.jpg" width="100%">
+            <article>
+                Rice an Chicken   3260
+                <hr>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </article>
+            
+            </div>
+</aside>
+<aside>
+
+    <div class="food">
+        <img src="rice.jpg" width="100%">
+        <article>
+            Rice an Chicken   3260
+            <hr>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </article>
+        
+        </div>
+
+        <div class="food">
+            <img src="rice.jpg" width="100%">
+            <article>
+                Rice an Chicken   3260
+                <hr>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </article>
+            
+            </div>
+
+            <div class="food">
+                <img src="rice.jpg" width="100%">
+                <article>
+                    Rice an Chicken   3260
+                    <hr>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </article>
+                
+                </div>
+
+                <div class="food">
+                    <img src="rice.jpg" width="100%">
+                    <article>
+                        Rice an Chicken   3260
+                        <hr>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </article>
+                    
+                    </div>
+
+</aside>
+</section>
+<section class="menu-4"></section>
+</main>
+
+
+    <footer> 
+        &copy; 2024 All  right Reserved
+    </footer>
+
+</body>
+
+</html>
